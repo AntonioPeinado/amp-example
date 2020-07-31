@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "run-p start build:dev",
+    "start": "run-p serve build:dev",
     "build": "html-includes --src src --dest dist --minify",
     "build:dev": "html-includes --src src --dest dist --watch",
-    "start": "http-server dist"
+    "serve": "http-server dist"
   },
   "author": "",
   "license": "ISC",
